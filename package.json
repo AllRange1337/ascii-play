@@ -1,0 +1,25 @@
+{
+  "name": "ffmpeg-ascii-player",
+  "version": "1.0.0",
+  "description": "Lightweight CLI tool to play videos as colored ASCII art",
+  "type": "module",
+  "main": "main.js",
+  "bin": {
+    "ascii-play": "./main.js"
+  },
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "ascii",
+    "video",
+    "ffmpeg",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
